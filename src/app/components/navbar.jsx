@@ -58,7 +58,7 @@ const Navbar = () => {
                                 </Link>
                             </div>
 
-                            <div>
+                            <div className='align-items-center'>
                                 <nav className="navbar navbar-expand-lg" id={navbarStyle.navbarMenu}>
                                     <div className="container-fluid">
                                         <button className="navbar-toggler btn-outline-light" type="button" data-bs-toggle="offcanvas"

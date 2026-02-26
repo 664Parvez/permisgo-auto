@@ -84,3 +84,12 @@
         margin-bottom: 30px;
     }
 }
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+    .mobileNavLogo {
+        width: 150px !important;
+    }
+    #courseSelector {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+}

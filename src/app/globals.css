@@ -8,6 +8,7 @@
   --first-light-color: #d6e5ff;
   --second-light-color: #ffdadd;
   --third-light-color: #d9ffdc;
+  --forth-light-color: #fffdd9;
   --white-color: #ffffff;
   --offwhite-color: #f1f1f1;
   --black-color: #000000;
@@ -66,6 +67,27 @@ input::placeholder {
       height: 100%;
       object-fit: cover;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--rating-color);
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--third-color);
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--first-color);
+}
+
 
 .form-control:focus {
     box-shadow: none !important;
